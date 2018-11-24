@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algs.dir/main.cpp.o"
+  "CMakeFiles/algs.dir/src/main.cpp.o"
   "bin/algs.pdb"
   "bin/algs"
 )

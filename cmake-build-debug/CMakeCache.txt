@@ -207,8 +207,17 @@ ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 //Value Computed by CMake
 algs_BINARY_DIR:STATIC=/mnt/e/wslhome/algs/cmake-build-debug
 
+//Dependencies for target
+algs_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 algs_SOURCE_DIR:STATIC=/mnt/e/wslhome/algs
+
+//Dependencies for target
+lalgs_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libalgs_LIB_DEPENDS:STATIC=
 
 
 ########################
@@ -315,7 +324,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

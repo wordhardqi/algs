@@ -57,38 +57,38 @@ include CMakeFiles/algs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algs.dir/flags.make
 
-CMakeFiles/algs.dir/main.cpp.o: CMakeFiles/algs.dir/flags.make
-CMakeFiles/algs.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algs.dir/main.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algs.dir/main.cpp.o -c /mnt/e/wslhome/algs/main.cpp
+CMakeFiles/algs.dir/src/main.cpp.o: CMakeFiles/algs.dir/flags.make
+CMakeFiles/algs.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algs.dir/src/main.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algs.dir/src/main.cpp.o -c /mnt/e/wslhome/algs/src/main.cpp
 
-CMakeFiles/algs.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algs.dir/main.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/wslhome/algs/main.cpp > CMakeFiles/algs.dir/main.cpp.i
+CMakeFiles/algs.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algs.dir/src/main.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/wslhome/algs/src/main.cpp > CMakeFiles/algs.dir/src/main.cpp.i
 
-CMakeFiles/algs.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algs.dir/main.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/wslhome/algs/main.cpp -o CMakeFiles/algs.dir/main.cpp.s
+CMakeFiles/algs.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algs.dir/src/main.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/wslhome/algs/src/main.cpp -o CMakeFiles/algs.dir/src/main.cpp.s
 
-CMakeFiles/algs.dir/main.cpp.o.requires:
+CMakeFiles/algs.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/algs.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/algs.dir/src/main.cpp.o.requires
 
-CMakeFiles/algs.dir/main.cpp.o.provides: CMakeFiles/algs.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/algs.dir/main.cpp.o.provides
+CMakeFiles/algs.dir/src/main.cpp.o.provides: CMakeFiles/algs.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/algs.dir/src/main.cpp.o.provides
 
-CMakeFiles/algs.dir/main.cpp.o.provides.build: CMakeFiles/algs.dir/main.cpp.o
+CMakeFiles/algs.dir/src/main.cpp.o.provides.build: CMakeFiles/algs.dir/src/main.cpp.o
 
 
 # Object files for target algs
 algs_OBJECTS = \
-"CMakeFiles/algs.dir/main.cpp.o"
+"CMakeFiles/algs.dir/src/main.cpp.o"
 
 # External object files for target algs
 algs_EXTERNAL_OBJECTS =
 
-bin/algs: CMakeFiles/algs.dir/main.cpp.o
+bin/algs: CMakeFiles/algs.dir/src/main.cpp.o
 bin/algs: CMakeFiles/algs.dir/build.make
 bin/algs: CMakeFiles/algs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/algs"
@@ -99,7 +99,7 @@ CMakeFiles/algs.dir/build: bin/algs
 
 .PHONY : CMakeFiles/algs.dir/build
 
-CMakeFiles/algs.dir/requires: CMakeFiles/algs.dir/main.cpp.o.requires
+CMakeFiles/algs.dir/requires: CMakeFiles/algs.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/algs.dir/requires
 

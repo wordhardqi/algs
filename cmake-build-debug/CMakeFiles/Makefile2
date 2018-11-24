@@ -60,39 +60,96 @@ CMAKE_SOURCE_DIR = /mnt/e/wslhome/algs
 CMAKE_BINARY_DIR = /mnt/e/wslhome/algs/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/algs.dir
+# Directory level rules for directory src
+
+# Convenience name for "all" pass in the directory.
+src/all: src/CMakeFiles/main.dir/all
+src/all: src/CMakeFiles/libalgs.dir/all
+
+.PHONY : src/all
+
+# Convenience name for "clean" pass in the directory.
+src/clean: src/CMakeFiles/main.dir/clean
+src/clean: src/CMakeFiles/libalgs.dir/clean
+
+.PHONY : src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/preinstall:
+
+.PHONY : src/preinstall
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/algs.dir/all:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/depend
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target algs"
-.PHONY : CMakeFiles/algs.dir/all
+src/CMakeFiles/main.dir/all:
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/depend
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target main"
+.PHONY : src/CMakeFiles/main.dir/all
 
 # Include target in all.
-all: CMakeFiles/algs.dir/all
+all: src/CMakeFiles/main.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/algs.dir/rule: cmake_check_build_system
+src/CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/algs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/algs.dir/rule
+.PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-algs: CMakeFiles/algs.dir/rule
+main: src/CMakeFiles/main.dir/rule
 
-.PHONY : algs
-
-# clean rule for target.
-CMakeFiles/algs.dir/clean:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/clean
-.PHONY : CMakeFiles/algs.dir/clean
+.PHONY : main
 
 # clean rule for target.
-clean: CMakeFiles/algs.dir/clean
+src/CMakeFiles/main.dir/clean:
+	$(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/clean
+.PHONY : src/CMakeFiles/main.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/libalgs.dir
+
+# All Build rule for target.
+src/CMakeFiles/libalgs.dir/all:
+	$(MAKE) -f src/CMakeFiles/libalgs.dir/build.make src/CMakeFiles/libalgs.dir/depend
+	$(MAKE) -f src/CMakeFiles/libalgs.dir/build.make src/CMakeFiles/libalgs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target libalgs"
+.PHONY : src/CMakeFiles/libalgs.dir/all
+
+# Include target in all.
+all: src/CMakeFiles/libalgs.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/libalgs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/libalgs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/libalgs.dir/rule
+
+# Convenience name for target.
+libalgs: src/CMakeFiles/libalgs.dir/rule
+
+.PHONY : libalgs
+
+# clean rule for target.
+src/CMakeFiles/libalgs.dir/clean:
+	$(MAKE) -f src/CMakeFiles/libalgs.dir/build.make src/CMakeFiles/libalgs.dir/clean
+.PHONY : src/CMakeFiles/libalgs.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/libalgs.dir/clean
 
 .PHONY : clean
 

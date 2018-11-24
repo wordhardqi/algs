@@ -1,3 +1,14 @@
-/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/algs.dir
+/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/install/strip.dir
+/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/install.dir
+/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/install/local.dir
+/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/list_install_components.dir
 /mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/e/wslhome/algs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/install/strip.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/install/local.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/main.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/libalgs.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/list_install_components.dir
+/mnt/e/wslhome/algs/cmake-build-debug/src/CMakeFiles/install.dir
